@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* SECCION INICIO */
+/* esta es la seccion de inicio*/
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("img/fondo.jpg");
@@ -26,7 +26,7 @@ html{
 .inicio .contenido-seccion header{
     padding: 30px;
 }
-/* menu lateral */
+/* este es el menu lateral */
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
@@ -115,12 +115,12 @@ html{
     top: -100px;
     transform: translateX(-50%);
 }
-/* estilos generales */
+/* Aca son los Estilos generales usados */
 .titulo-seccion{
     font-family: "Yellowtail";
     font-size: 1.5rem;
 }
-/* SECCION SOBRE MI */
+/* Esta Seccion es sobre mi */
 .sobremi{
     background-color: yellow;
     padding: 140px 0 100px 0;
@@ -167,7 +167,7 @@ html{
     font-weight: bold;
     margin: 8px 0;
 }
-/* SECCION HABILIDADES */
+/* Esta Seccion es de mis Habilidades */
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
@@ -213,7 +213,7 @@ html{
     height: 30px;
     margin-right: 2px;
 }
-/* SECCION RESUMEN */
+/* Esta es la Seccion del Resumen */
 .resumen{
     background-color: yellow;
     padding: 140px 0 100px 0;
@@ -273,7 +273,7 @@ html{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
-/* SECCION CONTACTO */
+/* Esta es la Seccion de Contacto */
 .contacto{
     background-color: #202020;
     padding: 140px 0 100px 0;
@@ -299,7 +299,7 @@ html{
 .contacto .contenido-seccion .fila .col h2{
     color: #940253;
 }
-/* SECCION RESPONSIVE */
+/* esta es la seccion full responsive */
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
         display: block;

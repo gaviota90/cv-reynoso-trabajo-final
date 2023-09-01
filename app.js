@@ -29,7 +29,7 @@ function crearBarra(id_barra){
     }
 }
 
-//selecciono todas las barras generales par aluego manipularlas
+//aca se selecciona todas las barras para despues las podamos utilizar
 let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
@@ -42,10 +42,8 @@ let php = document.getElementById("php");
 crearBarra(php);
 let ilustrator = document.getElementById("ilustrator");
 crearBarra(ilustrator);
+// Lo siguiente es guardar las cantidades de barritas que vamos a ir rellenando por cada barra para eso se usa un array lo cual cada posicion corresponde a un elemento comienza en -1 porque no comienza con ninguna pintada al iniciarse
 
-//Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
-//para eso utilizo un arreglo, cada posiciòn pertenece a un elemento
-//comienzan en -1 porque no tiene ninguna pintada al iniciarse
 let contadores = [-1,-1,-1,-1,-1,-1];
 //esta variable la voy a utilizar de bandera para saber si ya ejecuto la animación
 let entro = false;
